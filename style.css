@@ -1,0 +1,170 @@
+body{
+	margin: 0;
+	padding:0;
+	font-family: sans-serif;
+	background-color: #FFFFFF;
+	scroll-behavior: smooth;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+	background-color:  #FF0000;
+	width: 95%;
+	margin: 10px auto;
+	border-radius: 35px;
+	border-bottom: 4px solid #ff8400;
+	height: 75px;
+}
+
+.logo {
+	
+	padding-left: 20px;
+}
+
+img{
+	height:60px;
+	width:60px;
+}
+
+.logo img:hover {
+	transform: scale(1.1);
+	transition: .3s;
+}
+
+nav {
+	
+}
+
+nav ul {
+	
+	display: flex;
+	align-items: center;
+	gap: 30px;
+	padding-right: 30px;
+}
+
+nav ul li{
+	list-style: none;
+	
+}
+
+nav ul li a {
+	text text-decoration: none;
+	color: #FFFFFF;
+}
+nav ul li a:hover {
+	text decoration: underline;
+	text-underline-offset: 12px;
+	color: #ffFFFF;
+	transform: scale(1.3);
+	transition: .3s;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 95%;
+	margin: 0 auto;
+
+}
+
+.text-hero {
+	padding-left: 30px;
+	color: #FE0000;
+}
+
+.img-hero img {
+	width: 80%;
+	border-radius: 60%;
+	border: 6px solid orangered;
+	box-shadow: 2px 4px orangered;
+}
+
+.img-hero img:hover {
+	transform: scale(1.1);
+	transition: .3s;
+}
+
+#about {
+	width: 95%;
+	margin: 50px auto;
+	background-color: #F57D1F;
+	color: #F6F1E9;
+	border-radius: 20px;
+}
+
+#about h2 {
+	color: #FE0000;
+	padding: 30px;
+	text-align: center;
+}
+
+hr {
+	width: 30%;
+}
+
+#about p {
+	padding: 20px;
+}
+.img{
+	width:400px;
+	height:400px;
+	
+}
+#product {
+	width: 95%;
+	margin: 40px auto;
+}
+
+#product h1 {
+	color: #ff0000
+	
+}
+
+.product-card {
+	width: 90%;
+	margin: 20px auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.card1 {
+	width: 250px;
+	text-align: center;
+	border: 1px solid orangered;
+	padding:20px;
+	background-color: antiquewhite;
+	border-radius: 40px 0;
+	margin-top: 30px;
+	box-shadow: 2px 4px 4px orangered;
+}
+
+.card1 img {
+	width: 60%;
+	border-radius: 20px 0;
+
+
+}
+
+.card1 img:hover {
+	transform:  scale(.9);
+	transition: .4s;
+}
+.card1 a {
+	padding: 10px 20px;
+	background-color: #ff0000;
+	color: whitesmoke;
+	text-decoration: none;
+	border-radius: 20px 0;
+}
+
+.card1 a: hover {
+	background-color:  whitesmoke;
+	color: #4F200D;
+}
